@@ -682,7 +682,6 @@ img.moving_machine {
     background-position: center;
     border-radius: 30px;
     height: 450px;
-    position: relative;
 }
 
 .sply_chn_content {
@@ -696,7 +695,6 @@ img.moving_machine {
     bottom: -80px;
     text-align: center;
     --bs-gutter-x: 35px;
-    left: 52px;
 }
 
 .spply_chn_box {

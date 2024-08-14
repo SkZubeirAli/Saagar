@@ -1,0 +1,51 @@
+@media screen and (max-width:767px) {
+    .top_bar {
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand {
+    position: static !important;
+}
+.navbar-brand img {
+    height: auto;
+    width: 70%;
+}
+img.banner_img {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+    .banner_contents_div {
+        width: 80%;
+        left: 12vw;
+        top: 52vh;
+    }
+    .banner_content {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.banner_view_button {
+    font-size: 16px;
+} 
+#home_page_banner_slider .owl-nav button .fa-arrow-right {
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+}
+
+#home_page_banner_slider .owl-nav button .fa-arrow-left {
+    position: absolute;
+    left: 10px;
+    bottom: 50%;
+}
+
+marquee.banner_marque {
+    bottom: 5%;
+    font-size: 40px;
+}
+
+.our_product_cards_div a {
+    justify-content: center !important;
+}
+}
