@@ -806,11 +806,6 @@ img.moving_machine {
     border-radius: 45px;
 }
 
-.product_heading {
-    font-size: 38px;
-    font-weight: 600;
-}
-
 .contact_us_form .form-control, .contact_us_form textarea {
     padding: 25px 25px;
     border-radius: 20px;
@@ -932,7 +927,6 @@ section#product_categories_banner_img {
     background-color: #0060FF;
 }
 
-
 .search-bar {
     margin-bottom: 1rem;
     display: flex;
@@ -946,6 +940,11 @@ section#product_categories_banner_img {
 
 .search-bar input {
     border: 0;
+}
+
+.search-bar input:focus {
+    border: 0;
+    box-shadow: none;
 }
 
 .filter_list {
@@ -1014,7 +1013,6 @@ section#product_categories_banner_img {
     background-color: #fff;
     display: flex;
     align-items: center;
-    width: 40%;
     left: 12px;
     position: relative;
 }

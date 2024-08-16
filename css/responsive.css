@@ -198,7 +198,7 @@ img.rotate45 {
 }
 
 .what_we_do_link, .future_activites_link {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 section.why_sscpl {
@@ -210,9 +210,43 @@ section.why_sscpl {
     top: 10px; 
 }
 
+img.sscl_img {
+    width: 30%;
+}
+
+.sscl_content {
+    font-size: 16px; 
+    line-height: 20px; 
+    margin-bottom: 10px;
+}
+
+.spply_chn_box {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.spply_chn_box_img_div {
+    height: 60px;
+    margin: 5px 0px;
+}
+
+.spply_chn_box_img {
+    width: 80%;
+}
+
 .sply_chn_content {
-    font-size: 18px; 
-    line-height: 22px;
+    font-size: 16px; 
+    line-height: 20px;
+}
+
+.spply_chn_title {
+    font-size: 14px;
+}
+
+.spply_chn_btn {  
+    padding: 3px 12px; 
+    width: 110px;
+    font-size: 12px;
 }
 
 .three_boxes_div {
@@ -235,7 +269,250 @@ section.why_sscpl {
     line-height: 22px;
 }
 
-/* home page end */
+/* home page close*/
 
+
+
+/* what we do page start */
+
+.banner_heading_text {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.banner_heading_breadcrumb li {
+    font-size: 14px; 
+    font-weight: 400;
+}
+
+.banner_heading_div {
+    padding: 50px 0px;
+}
+
+img.right_img.what_we_do_img { 
+    margin-top: 0px;
+}
+
+/* what we do page close*/
+
+
+/* enquire page start */
+
+.enquiry_section {
+    padding: 20px 10px;
+}
+
+.enquiry_section .left_section .since_content { 
+    line-height: 22px;
+}
+
+.since_content.fs-24 {
+    font-size: 20px !important;
+}
+
+.enquiry_section .left_section li.since_content {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.enquiry_section .right_section { 
+    padding: 20px; 
+    position: static;
+    text-align: center;
+    box-shadow: none;
+}
+
+.enquiry_section .right_section .form-control, .enquiry_section .right_section textarea { 
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.enquiry_section .right_section form .btn {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.faq .container {
+    padding: 20px 10px !important;
+}
+
+#faq_accordion .accordion-item {
+    padding: 0px 0px;
+}
+
+#faq_accordion .accordion-body p {
+    margin-bottom: 0px;
+}
+
+/* enquire page close*/
+
+
+/* career page start */
+
+h4.product_heading {
+    font-size: 28px;
+}
+
+.contact_us_form.career_form .form-control, .contact_us_form.career_form textarea,
+.contact_us_form .form-control, .contact_us_form textarea {
+    padding: 15px 15px;
+    border-radius: 14px;
+    font-size: 14px;
+}
+
+.contact_us_form button { 
+    padding: 3px 0px; 
+    font-size: 16px;
+    font-weight: 500; 
+    margin-bottom: 16px;
+}
+
+/* career page close*/
+
+
+/* contact us page start */
+
+.address_and_map iframe {
+    border-radius: 20px !important;
+}
+
+.contact_us_form { 
+    border-radius: 20px;
+}
+
+h5.form_mark { 
+    font-size: 18px;
+}
+
+/* contact us page close*/
+
+
+/* product categories page close*/
+
+.product_categories_page .our_product_cards_div .fa-arrow-right:before, 
+.product_filter_gallery_div .fa-arrow-right:before, 
+.btn_next_prev_div .fa-arrow-right:before, 
+.btn_next_prev_div .fa-arrow-left:before {
+    position: relative;
+    bottom: 3px;
+}
+
+.search_btn {
+    background-color: #fff;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+}
+
+.filter_list .list-group-item { 
+    padding: 5px 0px;
+}
+
+.search-bar input {
+    font-size: 14px;
+}
+
+.product_filter_gallery {
+    padding: 10px 10px 20px;
+}
+
+.product_filter_gallery_div:nth-child(odd) {
+    padding-left: 7px;
+}
+
+.product_filter_gallery_div:nth-child(even) {
+    padding-right: 7px;
+}
+.product_filter_gallery_div {
+    margin: 10px 0px;
+}
+
+.product_filter_gallery .card-body {
+    height: 70px; 
+    top: 5px;
+}
+
+.product_filter_gallery_div .fa-arrow-right:before { 
+    font-size: 13px;
+}
+
+
+/* product categories page close*/
+
+/* dibutyl phosphate css open */
+
+.product_img_div { 
+    position: static;
+    margin-bottom: 15px;
+}
+
+.function_title button, .accordion-body {
+    padding: 10px 10px;
+}
+
+.product_description .accordion-body {
+    margin-bottom: 15px;
+}
+
+.product_heading_btn_next_prev_div .fa-arrow-left:before, 
+.product_heading_btn_next_prev_div .fa-arrow-right:before {
+    font-size: 14px;
+}
+
+/* dibutyl phosphate page close*/
+
+
+/* about us page open*/
+
+
+.about_us_story_div .saagar_speciality_chemical_machines img {
+    position: static; 
+}
+
+.about_info_box.info-box {
+    float: none;
+    border-radius: 45px 50px 10px 40px;
+    left: 12px;
+}
+
+.story_small {
+    margin-bottom: 10px;
+}
+
+.management_team .container {
+    text-align: center;
+}
+
+.sscl_img_div {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_vission_main_div, .our_mission_main_div {
+    height: auto;
+    padding: 20px;
+}
+
+
+
+/* about us page close*/
+
+/* footer start */
+
+footer a {
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+
+.social_media_icon .fa {
+    font-size: 20px;
+}
+
+.copyright_content {
+    font-size: 14px;
+}
 
 }

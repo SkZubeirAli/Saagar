@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Saagar Speciality</title>
 </head>
 <body style="background-color: #333;">
-    <header class="header" id="mainHeader">
+    <header id="mainHeader" class="header pt-md-0 pt-2">
         <div class="container">
             <div class="d-flex flex-column">
-                <div class="top_bar col-12 pt-md-3">                
+                <div class="top_bar col-12 py-md-3 pt-2 d-md-block d-none">                
                     <ul class="mb-2 list-group list-unstyled list-group-horizontal mb-md-0 float-end">
                         <!-- <li class="list-group-item">
                             <a class="nav-link" href="#">ENG</a>
@@ -35,9 +36,9 @@
                     </ul>
                 </div>
                 <div class="menu">
-                    <nav class="navbar navbar-expand-lg navbar-dark pt-md-0">
+                    <nav class="navbar navbar-expand-lg navbar-dark pt-0">
                         <a class="navbar-brand" href="index.html">
-                            <img class="header_logo" src="images/header_logo.png" alt="Sagar Logo"> 
+                            <img class="header_logo" src="images/header_logo_2.png" alt="Sagar Logo"> 
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -48,16 +49,16 @@
                                     <a class="nav-link" href="product-categories.html">Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Company Profile</a>
+                                    <a class="nav-link" href="about-us.html">Company Profile</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about-us.html">Partner with us</a>
+                                    <a class="nav-link" href="enquire.html">Partner with us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="career.html">Career</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Client</a>
+                                    <a class="nav-link" href="">Client</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact-us.html">Contact Us</a>
@@ -121,8 +122,8 @@
             </div>
         </section>
 
-        <section class="white_section about_us">
-            <div class="container py-md-5">
+        <section class="white_section about_us py-md-5 py-3">
+            <div class="container">
                 <div class="row about_us_story_div">
                     <div class="col-md-7 pe-md-4">
                         <h2 class="product_heading text-start pb-md-1"><span class="our">ABOUT </span>US</h2>
@@ -149,9 +150,9 @@
                             </p>
                         </div>
                     </div>                    
-                    <div class="col-md-5 saagar_speciality_chemical_machines float-end">
+                    <div class="col-md-5 saagar_speciality_chemical_machines float-md-end">
                         <img src="images/home/saagar_speciality_chemical.png" alt="Chemical Process" class="img-fluid rounded">
-                        <div class="about_info_box info-box text-start text-light p-md-4 up_and_down">
+                        <div class="about_info_box info-box text-md-start text-center text-light p-md-4 up_and_down">
                             <h4>100k+</h4>
                             <p>Lorem Ipsum</p>
                             <hr>
@@ -178,7 +179,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-12 background_blue_img my-md-5 p-md-5 cor_values">
+                <div class="col-md-12 background_blue_img my-md-5 p-md-5 p-3 cor_values">
                     <h2 class="product_heading text-start text-light pb-md-1">Cor Values</h2>
                     <div class="row">
                         <div class="col-md-7 pe-md-4 pt-md-3">                            
@@ -198,8 +199,8 @@
     
                             <p class="fs-14 lh-20 fw-light text-light">
                                 M/s Sagar Speciality Chemicals Private Limited success driven by 7 pillars;
-                                <div class="col-md-6 d-flex ms-md-3">
-                                    <ul class="col-md-6 list-group ">
+                                </p><div class="col-md-6 col-12 d-flex justify-content-md-start justify-content-center ms-md-3">
+                                    <ul class="col-md-6 col-7 list-group ">
                                         <li class="text-light fs-14 fw-light">Entrepreneurship</li>
                                         <li class="text-light fs-14 fw-light">Responsibility</li>
                                         <li class="text-light fs-14 fw-light">Sustainability</li>
@@ -211,7 +212,7 @@
                                         <li class="text-light fs-14 fw-light">Collaboration</li>
                                     </ul>
                                 </div>
-                            </p>
+                            <p></p>
                             
                             <p class="fs-14 lh-20 fw-light text-light">
                                 The 2nd generation management team is now looking forward to making notable progress into manufacturing 
@@ -223,19 +224,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-row-reverse col-md-12">
+                <div class="d-flex flex-md-row-reverse flex-column col-md-12 py-md-0 py-3">
                     <div class="col-md-7 ps-md-5">
                         <h2 class="col-md-12 product_heading text-start pb-md-3 float-start"><span class="our"> COMPANY  </span>POLICY</h2>
                         <p class="fs-14 lh-20">
-                            <ul class="company_policies list-group-numbered">
+                            </p><ul class="company_policies list-group-numbered">
                                 <li>We deal only with branded, recognized and quality products. We do not deal with inferior quality, adulterated or unrecognized products.</li>
                                 <li>SSCPL does not promote any corruption or bribery while dealing with any of our customers or government authorities.</li>
                                 <li>SSCPL strictly adheres to Child Labor Act and Sexual Harassment Policy. We believe in providing a free and fair work environment to our employees.</li>
-                                <li>SSCPL adheres to Safety, Health & Environmental policies and engages with principals following the Safety, Health & Environmental policies.</li>
+                                <li>SSCPL adheres to Safety, Health &amp; Environmental policies and engages with principals following the Safety, Health &amp; Environmental policies.</li>
                                 <li>SSCPL adheres to all the company norms as laid down by the UN as well as the Government of India.</li>
                             </ul>
                             
-                        </p>
+                        <p></p>
                     </div>
                     <div class="col-md-5">
                         <img class="right_img what_we_do_img pe-md-3" src="images/about-us/company_policy.png">
@@ -244,11 +245,11 @@
             </div>
         </section>
 
-        <section class="blue_section management_team">
-            <div class="container py-md-5">
+        <section class="blue_section management_team py-md-5 py-3">
+            <div class="container">
                 <h2 class="vission_heading product_heading py-md-3 text-light">MANAGEMENT<span class="purple_color"> TEAM</span></h2>
                 <div class="col-md-12 row align-items-center">
-                    <div class="col-md-3">
+                    <div class="col-md-3 my-md-0 my-2">
                         <img src="images/about-us/ravindra_laxmidas.png" alt="" class="img-fluid profile_img">
                     </div>
                     <div class="col-md-9">
@@ -263,7 +264,7 @@
                 <hr class=" col-md-9 float-end text-light py-md-2">    
                 
                 <div class="col-md-12 row align-items-center">
-                    <div class="col-md-3">
+                    <div class="col-md-3 my-md-0 my-2">
                         <img src="images/about-us/hardik_ravindra.png" alt="" class="img-fluid profile_img">
                     </div>
                     <div class="col-md-9">
@@ -280,7 +281,7 @@
                 <hr class=" col-md-9 float-end text-light py-md-2">
                 
                 <div class="col-md-12 row align-items-center">
-                    <div class="col-md-3">
+                    <div class="col-md-3 my-md-0 my-2">
                         <img src="images/about-us/jaydeep_kantilal.png" alt="" class="img-fluid profile_img">
                     </div>
                     <div class="col-md-9">
@@ -296,13 +297,13 @@
                 <hr class=" col-md-9 float-end text-light py-md-2">
                 
                 <div class="col-md-12 row align-items-center">
-                    <div class="col-md-3">
+                    <div class="col-md-3 my-md-0 my-2">
                         <img src="images/about-us/mehul_chandulal.png" alt="" class="img-fluid profile_img">
                     </div>
                     <div class="col-md-9">
                         <h5 class="name_and_position text-light pb-md-3">Mehul Chandulal Dattani - Head of Operations</h5>
                         <p class="about_description text-light fs-14 lh-20 fw-light">
-                            Mehul holds a diploma in Export & Import Management and with 17+ years of experience in
+                            Mehul holds a diploma in Export &amp; Import Management and with 17+ years of experience in
                             multiple profiles, he takes care of entire operations right from order management to delivery of products. 
                             He jointly works with the Management Team and responsible for logistics and documentation process.
                         </p>
@@ -311,7 +312,7 @@
                 <hr class=" col-md-9 float-end text-light py-md-2">
                 
                 <div class="col-md-12 row align-items-center">
-                    <div class="col-md-3">
+                    <div class="col-md-3 my-md-0 my-2">
                         <img src="images/about-us/brijesh_shah.png" alt="" class="img-fluid profile_img">
                     </div>
                     <div class="col-md-9">
@@ -327,7 +328,7 @@
             </div>
         </section>
 
-        <section class="white_section  partnership">
+        <section class="white_section  partnership pt-md-5 pt-3">
             <div class="container pt-md-5">
                 <div class="row align-items-center">
                     <div class="col-md-7 pe-md-5">
@@ -348,7 +349,7 @@
             </div>
 
             <div class="container pt-md-5">
-                <div class="d-flex flex-row-reverse align-items-center justify-content-between">
+                <div class="d-flex flex-md-row-reverse flex-column align-items-center justify-content-between py-md-0 pt-3">
                     <div class="col-md-6 ps-md-4">
                         <h2 class="col-md-12 product_heading text-start pb-md-3 float-start"><span class="our">WHY SSCPL </span></h2>
                         <p class="fs-14 lh-20">
@@ -367,46 +368,48 @@
             </div>
         </section>
 
-        <section class="white_section why_sscpl height670">
-            <div class="container mb-md-5">
+        <section class="white_section why_sscpl pb-md-5 pb-3">
+            <div class="container py-md-5 py-3 mb-md-5">
                 <div class="row justify-content-between position-relative">
-                    <div class="animated_moving_machine py-md-2">
+                    <div class="animated_moving_machine py-md-2 d-md-block d-none">
                         <img class="moving_machine" src="images/home/animated_top-tank.png" alt="">
                     </div>
-                    <div class="col-md-12 why_sscpl_bg_img position-absolute">
-                        <h2 class="product_heading text-light text-center pt-md-5 mt-md-4">WHY SSCPL?</h2>
-                        <div class="row pt-md-5">
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/funnel.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Product</p>
-                            </div>
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/competitve_pricing.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Competitve Pricing</p>
-                            </div>
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/packaging.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Packaging</p>
-                            </div>
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/commitment.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Commitment</p>
-                            </div>
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/delivery.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Delivery</p>
-                            </div>
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/customised_solutions.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Customised Solutions</p>
-                            </div>
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/compliances.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Compliances</p>
-                            </div>
-                            <div class="col-md-3 sscl_contents_main_div text-center pb-md-5">
-                                <div class="sscl_img_div"> <img src="images/home/customer_support.png" alt="" class="sscl_img"></div>
-                                <p class="sscl_content mt-md-3">Customer Support</p>
+                    <div class="col-12">
+                        <div class="why_sscpl_bg_img">
+                            <h2 class="product_heading text-light text-center pt-md-5 pt-3 mt-md-4">WHY SSCPL?</h2>
+                            <div class="row pt-md-5 pt-3 px-md-0 px-3">
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/funnel.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Product</p>
+                                </div>
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/competitve_pricing.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Competitve Pricing</p>
+                                </div>
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/packaging.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Packaging</p>
+                                </div>
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/commitment.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Commitment</p>
+                                </div>
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/delivery.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Delivery</p>
+                                </div>
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/customised_solutions.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Customised Solutions</p>
+                                </div>
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/compliances.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Compliances</p>
+                                </div>
+                                <div class="col-md-3 col-6 sscl_contents_main_div text-center pb-md-5 pb-3">
+                                    <div class="sscl_img_div"> <img src="images/home/customer_support.png" alt="" class="sscl_img"></div>
+                                    <p class="sscl_content mt-md-3">Customer Support</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -414,8 +417,8 @@
             </div>
         </section>
 
-        <section class="white_section vision_mission">
-            <div class="container pb-md-5">
+        <section class="white_section vision_mission pb-md-5 pb-4">
+            <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
                         <div class="our_vission_main_div p-md-5 ">
